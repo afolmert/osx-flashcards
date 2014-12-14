@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096C86351A3DD8C500C4BC3D /* CKDrillWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C86331A3DD8C500C4BC3D /* CKDrillWindowController.m */; };
+		096C86361A3DD8C500C4BC3D /* CKDrillWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096C86341A3DD8C500C4BC3D /* CKDrillWindowController.xib */; };
 		0972AACB1A3DA08F0000B4AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0972AACA1A3DA08F0000B4AC /* Cocoa.framework */; };
 		0972AAD51A3DA08F0000B4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0972AAD31A3DA08F0000B4AC /* InfoPlist.strings */; };
 		0972AAD71A3DA08F0000B4AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0972AAD61A3DA08F0000B4AC /* main.m */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096C86321A3DD8C500C4BC3D /* CKDrillWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDrillWindowController.h; sourceTree = "<group>"; };
+		096C86331A3DD8C500C4BC3D /* CKDrillWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDrillWindowController.m; sourceTree = "<group>"; };
+		096C86341A3DD8C500C4BC3D /* CKDrillWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKDrillWindowController.xib; sourceTree = "<group>"; };
 		0972AAC71A3DA08F0000B4AC /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0972AACA1A3DA08F0000B4AC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0972AACD1A3DA08F0000B4AC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -123,6 +128,9 @@
 				0972AAD11A3DA08F0000B4AC /* Supporting Files */,
 				0978981F1A3DBFFC005FE92D /* CKEntry.h */,
 				097898201A3DBFFC005FE92D /* CKEntry.m */,
+				096C86321A3DD8C500C4BC3D /* CKDrillWindowController.h */,
+				096C86331A3DD8C500C4BC3D /* CKDrillWindowController.m */,
+				096C86341A3DD8C500C4BC3D /* CKDrillWindowController.xib */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 				0972AAD51A3DA08F0000B4AC /* InfoPlist.strings in Resources */,
 				0972AADB1A3DA08F0000B4AC /* Credits.rtf in Resources */,
 				0972AAE11A3DA08F0000B4AC /* MainMenu.xib in Resources */,
+				096C86361A3DD8C500C4BC3D /* CKDrillWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +279,7 @@
 				0972AAD71A3DA08F0000B4AC /* main.m in Sources */,
 				0972AADE1A3DA08F0000B4AC /* CKAppDelegate.m in Sources */,
 				097898211A3DBFFC005FE92D /* CKEntry.m in Sources */,
+				096C86351A3DD8C500C4BC3D /* CKDrillWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,23 +1,45 @@
 //
-//  CKAppDelegate.m
+//  CKMainWindowController.m
 //  Flashcards
 //
 //  Created by Adam Folmert on 12/14/14.
 //  Copyright (c) 2014 Adam Folmert. All rights reserved.
 //
 
-#import "CKAppDelegate.h"
+#import "CKMainWindowController.h"
 #import "CKEntry.h"
 
-@implementation CKAppDelegate
+@interface CKMainWindowController ()
+
+@end
+
+@implementation CKMainWindowController
 {
     NSMutableArray *_entries;
     NSUInteger _index;
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+
+
+
+- (id)initWithWindow:(NSWindow *)window
 {
-    // Insert code here to initialize your application
+    self = [super initWithWindow:window];
+    if (self) {
+        NSLog(@"initWithWindow START %@", window);
+        // Initialization code here.
+    }
+    
+    return self;
+}
+
+
+- (void)windowDidLoad
+{
+    NSLog(@"windowDidLoad START");
+    [super windowDidLoad];
+    
+    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     _entries = [NSMutableArray array];
     
     for (NSUInteger i = 0; i < 10; i++) {
@@ -31,7 +53,11 @@
     _index = 0;
     
     [self updateGui];
+
 }
+
+
+
 
 
 - (void)updateGui

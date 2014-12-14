@@ -13,8 +13,4 @@
 @property (assign) IBOutlet NSWindow *window;
 
 
-@property (weak) IBOutlet NSTextField *answerLabel;
-@property (weak) IBOutlet NSTextField *questionLabel;
-- (IBAction)nextQuestion:(id)sender;
-
 @end
